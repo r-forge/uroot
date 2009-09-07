@@ -1,0 +1,26 @@
+
+ Source: IKERBIDE data bank.
+
+ Collected by Gobierno Vasco:
+    Departamento de Hacienda y Administración Pública.
+    Departamento de Economía y Planificación.
+
+    http://www.euskadi.net/economia/resumen_i.htm
+
+This data set contains the following time series from the Comunidad Autónoma del País Vasco (Spain):
+
+"airp": Airpassengers. Sample: 1982.1-2003.10. Monthly.
+"epaact": Actives. Sample: 1977.1-2004.2. Quarterly.
+"iai": Industrial activity index. Sample: 1984.7-2003.6. Monthly.
+"ipc": Consumer price index. Sample: 1993.1-2001.12. Monthly.
+"ipi": Industrial production index. Sample: 1990.1-2003.11. Monthly.
+"ipri": Industrial price index. Sample: 1993.1-2003.12. Monthly.
+"licof": Official bidding. Sample: 1985.1-2003.3. Quarterly.
+"mtur": Private car registration. Sample: 1980.1-2003.12. Monthly.
+"mvic": Industrial cargo vehicles registration. Sample: 1980.1-2003.12. Monthly.
+"paroreg": Registered unemployment. Sample: 1980.1-2003.12. Monthly.
+"pcemen": Cement production. Sample: 1980.1-2001.12. Monthly.
+"pernhot": Hotel occupation. Sample: 1981.1-2003.12. Monthly.
+"valorpr": Production value. Sample: 1989.1-2003.3. Quarterly.
+"vpoinic": Initiated Council houses. Sample: 1982.1-2003.12. Monthly.
+"vpoterm": Finished Council houses. Sample: 1982.1-2003.12. Monthly.

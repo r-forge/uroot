@@ -1,0 +1,106 @@
+
+## Version 1.0  November 26th, 2004 (Submitted to CRAN on January 12, 2005)
+
+  - First version available from CRAN. It includes ADF, KPSS, HEGY, and CH tests, as well as some graphics.
+    Several utilities, such as a graphical user interface, and tables in LaTeX format are also implemented.
+
+## Version 1.1  February 3rd, 2005
+
+  - DESCRIPTION file has been corrected. Current version of uroot does not include functions related to
+    structural or periodic models.
+
+  - A bug in seasonal box plot for quarterly series has been fixed. Parameter las=2 has been also changed to
+    las=1.
+
+  - A bug in HEGY and CH recursive testing has been fixed. The partition of the sample sometimes looked for
+    periods out of the sample, becoming the funtion trapped in a loop with no end.
+
+## Version 1.2 March 18th, 2005
+
+  - Recursive testing had still problems when the first subsample has few observations with regard to the
+    number of parameters. Criterium for selecting a top number of lags has changed to another one that tends
+    to select a lower initial order. In particular, in functions AICBICaux, selecPv2, selecPv3, selecPv4, and
+    TablaDet, the parameter "bp = round(10*log10(N))" has changed to "bp = round(12*(N/100)^0.5)". For next
+    versions, it will be pondered on letting the user make this choice.
+
+  - "round(4*(N/100)^0.25)" has been changed to "round(s*(N/100)^0.25)" in computation for the
+     covariance matrix in CH test.
+
+  - The function to extract the t-statistic from an lm object, called contts, has been changed. The
+    function vcov is now used so that there is no need to invert a matrix.
+
+  - Initial values for non-linear estimates in the function perdiff are set out as the coefficients entailed
+    in the model when it is treated as if it were lineal. A summary of the nls estimation is also added.
+
+  - The auxiliar function Tround has been modified. It rounds numbers in such a way that if the last decimal
+    equals to zero, that zero is printed, hence, all the numbers in tables that are exported to a LaTeX format
+    will display the same number of decimals.
+
+  - Labels for significance in the HEGY recursive F-test when compdet=c(1,0,1) has been defined properly.
+
+  - Argument "s" has been removed from "quarterg" and "bbmp".
+
+  - "Makefiltra" has been added. It allows to transform the series removing the selected cycles. It creates a
+    list object with the filtered time series and adds an item in the tree widget.
+
+## Version 1.3 May 17th, 2005
+
+  - system.file() is used so that the file names of files in package uroot are searched in a location
+    independent way. There is no reason why the package should be installed in R_HOME/library/uroot. There is
+    no guarantee that the path separator is "/", although that works on all current platforms. Example:
+    "mytkpager(file.path(R.home(), "library/uroot/data/source_capv"),...)" is replaced by
+    "mytkpager(system.file("data", "source_capv", package="uroot"),...)".
+
+  - Added monthlypath() from the package stats to the GUI (Graphics - Seasonal series).
+
+  - Rebuilt read data from .txt dialog box and the CH test about the frequencies dialog box.
+
+  - The import data menu has been rebuilt.
+
+  - Scrollbars in the main window are now scrollable.
+
+## Version 1.4 October 10th, 2005
+
+  - csv extension has been added to tkgetOpenFile in ReadDataCSV.
+
+  - The function "Omegaf" used in "CHtest" for building and heteroscedasticity and autocorrelation consistent
+    covariance matrix has changed. The lag truncation parameter is chosen by the user and the covariance
+    matrix is directly symmetrical.
+
+  - It is no longer required to set BWidget's path before installing "uroot". "BWidget" is available from
+    the "uroot" directory and the corresponding tcl path is automatically added by "urootgui()". This was
+    suggested by Uwe Ligges.
+
+  - The data set has been exported to an .rda file and can be loaded from the R-console (not only from the
+    GUI).
+
+  - HEGY regressors are built in a shorter, and possibly quicklier, amount of code.
+
+  - Lag selection methods has been reviewed and reduced to top-down AIC, BIC, and significant lags. When lag
+    order in ADF.test and HEGY.test is selected by the user, it is possible to consider a single lag greater
+    than first order.
+
+  - The working series is no longer a list object, attributes of "ts" classes are used instead.
+
+  - Classes and methods are defined to store and display the main information from the relevant functions. The
+    main functions in the package creates an object of different classes so that methods to show ans
+    summarize the output can be defined. The argument "showcat" is no longer needed.
+
+  - "vdate" class has been added. Some methods for that class (based on other methods already defined for
+    "ts" objects) allow to look up the date related to an observation in a "ts" object and vice versa.
+    (File uroot/R/stepdate.R in the source code).
+
+  - Buys-Ballot plot has been rebuilt takinf advantage of the "vdate" class and its related methods.
+
+  - p-values for the unit roots statistics are displayed. For it, tables with critical values has been
+    trasncribed to a file and depending on the sample size, the corresponding p-value is interpolated by
+    means of "approx" from the package "stats". (File uroot/R/urt-cvtables.R in the source code).
+
+  - The code for the recursive testing has been simplified and one more type of subsamples can be considered,
+    moving subsamples. (file uroot/R/rec-test.R in the source code).
+
+  - Changes above have entailed some changes in the GUI, some items have been dropped and other facilities
+    have been added. The rationale of the tree is keeped.
+
+  - Default values have been added to some arguments in some functions.
+

@@ -1,0 +1,83 @@
+
+This data set is used by P.H. Franses in the following book:
+   Periodicity and Stochastic Trends in Economic Time Series (Oxford University Press, 1996)
+
+URL: http://www.few.eur.nl/few/people/franses/
+
+Table DA.3.1: Total Industrial Production Index for the United States
+Sample: 1960.1 - 1991.4
+ Source: OECD Main Economic Indicators
+ Remark: (1985=100)
+
+Table DA.3.2: Unemployment in Canada
+Sample: 1960.1 - 1987.4
+ Source: OECD Main Economic Indicators
+ Remark: measured in 1000 persons.
+
+Table DA.3.3: Real GNP in Germany
+Sample: 1960.1 - 1990.4
+ Source: Wolters (1992, p.424, note 4)
+
+Table DA.3.4: Real Total Investment in the United Kindom
+Sample: 1955.1 - 1988.4
+ Source: Osborn (1990)
+
+Table DA.4.1: Total Industrial Production Index for the United States
+Sample: 1960.1 - 1991.4
+ Source: OECD Main Economic Indicators
+ Remark: (1985=100), Seasonally Adjusted
+
+Table DA.4.2: Unemployment in Canada
+Sample: 1960.1 - 1987.4
+ Source: OECD Main Economic Indicators
+ Remark: Seasonally Adjusted
+
+Table DA.3.3: Real GNP in Germany
+Sample: 1960.1 - 1990.4
+ Source: Wolters (1992, p.424, note 4)
+ Remark: Seasonally Adjusted
+
+Table DA.5.1: United Kingdom gross domestic product
+Sample: 1955.1 - 1988.4
+ Source: Osborn (1990)
+ Remark: at 1985 prices
+
+Table DA.5.2: United Kingdom total consumption
+Sample: 1955.1 - 1988.4
+ Source: Osborn (1990)
+ Remark: at 1985 prices
+
+Table DA.5.3: United Kindom nondurables consumption
+Sample: 1955.1 - 1988.4
+ Source: Osborn (1990)
+ Remark: at 1985 prices
+
+Table DA.5.4: United Kindom exports of goods and services
+Sample: 1955.1 - 1988.4
+ Source: Osborn (1990)
+ Remark: at 1985 prices
+
+Table DA.5.5: United Kindom imports of goods and services
+Sample: 1955.1 - 1988.4
+ Source: Osborn (1990)
+ Remark: at 1985 prices
+
+Table DA.5.6: United Kindom public investment
+Sample: 1962.1 - 1988.4
+ Source: Osborn (1990)
+ Remark: at 1985 prices
+
+Table DA.5.7: United Kindom workforce
+Sample: 1955.1 - 1988.4
+ Source: Osborn (1990)
+ Remark: consisting of workforce in employment and unemployment
+
+Table DA.9.1: Real per capita non-durables consumption in Sweden
+Sample: 1963.1 - 1988.1
+ Source: Assarsson (1991)
+ Remark: measured in logs.
+
+Table DA.9.2: Real per capita disposable income in Sweden
+Sample: 1963.1 - 1988.1
+ Source: Assarsson (1991)
+ Remark: measured in logs.

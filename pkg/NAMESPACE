@@ -1,0 +1,13 @@
+
+export(Mdates, ADF.test, ADF.rectest, KPSS.test, KPSS.rectest, HEGY.test, HEGY.rectest, CH.test,
+  CH.rectest, factorsdiff, plotcycles, Msts, bbplot, bbaplot, bb3D, bbcn,
+  recadf.save.xtable, reckpss.save.xtable, rechegy.save.xtable, recch.save.xtable,
+  urootgui)
+
+importFrom(graphics, plot)
+#importFrom(xtable, xtable)  ## xtable package does not have a namespace.
+
+exportClasses("vdate", "maybeRegvar", "maybeLags", "adfstat", "adfrecst", "kpssstat", "kpssrecst",
+  "hegystat", "hegyrecst", "chstat", "chrecst")
+
+exportMethods("show", "summary", "plot", "as.numeric", "as.vdate", "stepdate", "urt.xtable", "save.xtable")

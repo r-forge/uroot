@@ -1,0 +1,21 @@
+
+Source: Instituto Nacional de Estadística de España.
+
+http://www.ine.es/tempus2/tempusmenu.htm
+
+This data set contains the following time series from Spain:
+
+
+"costesal": Wage cost. Sample: 1982.1-2003.2. Quarterly.
+"indcsal": Wage cost index. Sample: 1982.1-2003.2. Quarterly.
+"ipc": Consumer price index. Sample: 1975.1-2003.10. Monthly.
+"ipi": Industrial production index. Sample: 1975.1-2003.9. Monthly.
+"ipri": Industrial price index. Sample: 1975.1-2003.10. Monthly.
+"mtur": Private car registration. Sample: 1983.1-2003.10. Monthly.
+"mvic": Industrial cargo vehicles registration. Sample: 1983.1-2003.10. Monthly.
+"paroreg": Registered unemployment. Sample: 1977.1-2003.10. Monthly.
+"pernhot": Hotel occupation. Sample: 1987.1-2003.10. Monthly.
+"valojhot": Travellers lodged in hotels. Sample: 1982.1-2003.10. Monthly.
+"vpoinic": Initiated council houses. Sample: 1972.1-2003.6. Monthly.
+"vpoterm": Finished council houses. Sample:  1970.1-2003.6. Monthly.
+"epaact": Actives. Sample: 1987.2-2003.3. Quarterly.

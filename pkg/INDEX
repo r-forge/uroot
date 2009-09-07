@@ -1,0 +1,47 @@
+
+ADF.rectest             Augmented Dickey-Fuller Recursive Test
+ADF.test                Augmented Dickey-Fuller Test
+KPSS.test               Kwiatkowski-Phillips-Schmidt-Shin Test
+KPSS.rectest            Kwiatkowski-Phillips-Schmidt-Shin Recursive Test
+HEGY.rectest            Hylleberg-Engle-Granger-Yoo Recursive Test
+HEGY.test               Hylleberg-Engle-Granger-Yoo Test
+CH.test                 Canova-Hansen Test
+CH.rectest              Canova-Hansen Recursive Test
+
+factorsdiff             Factor Seasonal Differencing Filter
+Mdates                  Determine the Location in the Sample of a Date and vice versa
+Msts                    Matrix with Seasonal Data
+
+dataFranses             Macroeconomic Time Series Data Set
+dataIKERBIDE            Macroeconomic Time Series from the Basque Country
+dataINE                 Macroeconomic Time Series from Spain
+
+adfrecst-class          "adfrecst" Class
+adfstat-class           "adfstat" Class
+chstat-class            "chstat" Class
+hegyrecst-class         "hegyrecst" Class
+hegystat-class          "hegystat" Class
+kpssstat-class          "kpssstat" Class
+vdate-class             "vdate" Class
+
+stepdate-methods        Methods for Function stepdate in Package "uroot"
+show                    Methods for Function show in Package "uroot"
+plot                    Methods for Function plot in Package "uroot"
+as.numeric              Methods for Function as.numeric in Package "uroot"
+
+as.vdate                Methods for Function as.vdate in Package "uroot"
+xtable                  Methods for Function xtable in Package "uroot"
+save.xtable             Methods for Function save.xtable in Package "uroot"
+
+bb3D                    Buys-Ballot 3D Plot
+bbaplot                 Buys-Ballot Anual Path Plot
+bbcn                    Buys-Ballot Contour Plot
+bbplot                  Buys-Ballot Plot for Seasonal Time Series
+plotcycles              Plot Long-run and Seasonal Cycles
+
+recadf.save.xtable      Save a Summary on the ADF Recursive Test to LaTeX or HTML File}
+rechegy.save.xtable     Save a Summary on the HEGY Recursive Test to LaTeX or HTML File}
+reckpss.save.xtable     Save a Summary on the KPSS Recursive Test to LaTeX or HTML File}
+recch.save.xtable       Save a Summary on the CH Recursive Test to LaTeX or HTML File}
+
+urootgui                uroot R-GUI
