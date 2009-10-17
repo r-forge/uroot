@@ -13,7 +13,7 @@
 
   \references{ ~put references to the literature/web site here ~ }
 
-  \author{Javier López-de-Lacalle \email{javlacalle@yahoo.es} and Ignacio Díaz-Emparanza
+  \author{Javier Lopez-de-Lacalle \email{javlacalle@yahoo.es} and Ignacio Diaz-Emparanza
     \email{Ignacio.Diaz-Emparanza@ehu.es}}
 
   \seealso{\code{\link{maybeLags-class}}.}

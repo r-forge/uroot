@@ -65,7 +65,7 @@
 
   \seealso{\code{\link{ADF.test}}.}
 
-  \author{Javier López-de-Lacalle \email{javlacalle@yahoo.es} and Ignacio Díaz-Emparanza
+  \author{Javier Lopez-de-Lacalle \email{javlacalle@yahoo.es} and Ignacio Diaz-Emparanza
     \email{Ignacio.Diaz-Emparanza@ehu.es}}
 
   \references{

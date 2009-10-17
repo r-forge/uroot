@@ -24,7 +24,7 @@
 
   \seealso{\code{\link[xtable]{xtable}}, \code{\link[xtable]{print.xtable}}, and \code{\link{KPSS.rectest}}.}
 
-  \author{Javier López-de-Lacalle \email{javlacalle@yahoo.es} and Ignacio Díaz-Emparanza
+  \author{Javier Lopez-de-Lacalle \email{javlacalle@yahoo.es} and Ignacio Diaz-Emparanza
     \email{Ignacio.Diaz-Emparanza@ehu.es}
   }
 

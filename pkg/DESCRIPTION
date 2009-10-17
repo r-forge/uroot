@@ -2,8 +2,8 @@ Package: uroot
 Version: 1.5
 Date: 2009/09/06
 Title: Unit Root Tests and Graphics for Seasonal Time Series
-Author: Javier López-de-Lacalle <javlacalle@yahoo.es> and
-        Ignacio Díaz-Emparanza <Ignacio.Diaz-Emparanza@ehu.es>
+Author: Javier Lopez-de-Lacalle <javlacalle@yahoo.es> and
+        Ignacio Diaz-Emparanza <Ignacio.Diaz-Emparanza@ehu.es>
 Maintainer: Carlos J. Gil Bellosta <cgb@datanalytics.com>
 Depends: R (>= 2.0.0), methods
 Imports: graphics

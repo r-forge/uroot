@@ -17,7 +17,7 @@
       included or not in the auxiliar regression. See details.}
     \item{DetTr}{a logical argument. If TRUE a linear trend is included in the auxiliar regression.}
     \item{ltrunc}{lag truncation parameter for computing the residuals covariance matrix. By default,
-      \eqn{round(s*(N/100)^0.25)}, where eqn{s} is the periodicity of the data and \eqn{N} the number of
+      \eqn{round(s*(N/100)^0.25)}, where \eqn{s} is the periodicity of the data and \eqn{N} the number of
       observations.}
   }
 
@@ -31,7 +31,7 @@
 
   \seealso{\code{\link{CH.rectest}}.}
 
-  \author{Javier López-de-Lacalle \email{javlacalle@yahoo.es} and Ignacio Díaz-Emparanza
+  \author{Javier Lopez-de-Lacalle \email{javlacalle@yahoo.es} and Ignacio Diaz-Emparanza
     \email{Ignacio.Diaz-Emparanza@ehu.es}.}
 
   \references{

@@ -4,7 +4,7 @@
 
   \title{Macroeconomic Time Series from the CAPV}
   \description{
-      This data set contains the macroeconomic time series from the Comunidad Autónoma del País Vasco [CAPV].
+      This data set contains the macroeconomic time series from the Comunidad Autnoma del Pas Vasco [CAPV].
    }
 
    \format{An .rda file which stores a list with objects of class \code{ts}.}

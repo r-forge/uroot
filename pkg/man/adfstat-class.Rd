@@ -40,7 +40,7 @@
     W.A. Fuller (1976), Introduction to Statistical Time Series. Jonh Wiley, New York.
   }
 
-  \author{Javier López-de-Lacalle \email{javlacalle@yahoo.es} and Ignacio Díaz-Emparanza
+  \author{Javier Lopez-de-Lacalle \email{javlacalle@yahoo.es} and Ignacio Diaz-Emparanza
     \email{Ignacio.Diaz-Emparanza@ehu.es}}
 
   \seealso{
